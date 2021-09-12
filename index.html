@@ -27,7 +27,7 @@
             }
 
             body {
-                background-image: url(assets/santa.png);
+                background-image: https://i.ytimg.com/vi/Y0nsf9ojRqA/maxresdefault.jpg;
                 background-position: bottom right;
                 background-repeat: no-repeat;
 
@@ -154,11 +154,9 @@
 
             <div class="part" style="overflow-y: auto">
                 <div class="instructions">
-                    <h1><img src="assets/mistletoe.png" style="vertical-align: middle" /> Secret Santa Generator</h1>
-                    <p>No signup, no email, no bullshit. Just a straightforward <a href="https://github.com/arcanis/secretsanta">open-source</a> tool to help you generate your secret santa pairings. One static page, and that's it.</p>
-                    <p>In the most common case (no exclusion rules, pair each guest with another at random), enter the name of your guests one line at a time. Once done, press "generate" and you're all set: send the generated links to your guests (by mail, chat, whatever floats your boat) and their pairing will be revealed to them (and only them) once they open the link.</p>
-                    <h2>Where does this tool come from?</h2>
-                    <p>I wanted to make a Secret Santa over Facebook without having to reveal to anyone my guests email addresses (so nothing that would require a backend). I also wanted not to know who was paired with me, so I had to find a way to somehow obfuscate the information. And being a developer, well, my first thought was "Let's AES it, for fun and profits!". Classic.</p>
+                    <h1><img src="assets/mistletoe.png" style="vertical-align: middle" /> NEXUS WORSHIP BUDDY GENERATOR </h1>
+                    <p> เครื่องมือจับคู่บั๊ดดี้ ที่แปลงมาจากโค้ด <a href="https://github.com/arcanis/secretsanta"> SecretSanta บน GitHub ซึ่งเป็น open-source</a> </p>
+                    <p> หลักการทำงานง่าย ๆ : ใส่ชื่อทุกคนที่ต้องการเล่น บรรทัดละคน แล้วกดปุ่ม Generate จากนั้นระบบจะจับคู่บั๊ดดี้แต่ละคนให้ พร้อมแสดงลิงก์ดูบั๊ดดี้ของแต่ละคน สิ่งที่ต้องทำต่อไปคือ ส่งลิงก์นั้นให้แต่ละคนกด</p>
                 </div>
             </div>
 
@@ -408,7 +406,7 @@
 
           var name = e.currentTarget.getAttribute( 'data-name' );
 
-          if ( ! confirm( 'If you click this link, you will be revealed ' + name + '\'s pairing! Are you sure you want to do this? Only do this if you\'re actually ' + name + '.\n\nUse right-click to copy the link target instead.' ) ) {
+          if ( ! confirm( 'อย่าคลิก ถ้าคุณไม่ใช่' + name + '⚠️If you click this link, you will be revealed ' + name + '\'s pairing! Are you sure you want to do this? Only do this if you\'re actually ' + name + '.\n\nUse right-click to copy the link target instead.' ) ) {
               e.preventDefault();
           }
 
